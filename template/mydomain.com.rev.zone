@@ -1,0 +1,21 @@
+$TTL 86400
+@       IN SOA  ns1.mydomain.com. root.mydomain.com. (
+                                2015030309      ; serial
+                                      3600      ; refresh
+                                      1800      ; retry
+                                    604800      ; expire
+                                     86400 )    ; minimum
+
+; Name server's
+
+@       IN      NS      ns1.mydomain.com.
+@       IN      NS      ns2.mydomain.com.
+@       IN      PTR     mydomain.com.
+
+; Name server hostname to IP resolve.
+ns1       IN      A       192.168.56.105
+ns2       IN      A       192.168.56.107
+
+;Hosts in Domain 
+105             IN      PTR     ns1.mydomain.com.
+107             IN      PTR     ns2.mydomain.com.
