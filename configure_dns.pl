@@ -1,7 +1,7 @@
 #!/bin/perl
 
 #
-# muhammad.efendi@ge.com
+# myusufe@gmail.com
 # Version 1.0
 # March 2015
 #
